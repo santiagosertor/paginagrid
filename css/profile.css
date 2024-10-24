@@ -1,0 +1,15 @@
+@import url("style.css");
+
+/* layout profile */
+.content-profile {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 280px;
+  grid-template-areas:
+    "profile-main profile-sidebar"
+    "profile-footer profile-footer";
+  gap: 1rem;
+  height: 100vh;
+  padding-top: calc(52px + 20px);
+}
+/* layout profile */
